@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
         buttonStart.setOnClickListener {
 
-            var myInent = Intent(this,MyService::class.java)
+            var myInent = Intent(this,MyIntentService::class.java)
             startService(myInent)
 
         }
