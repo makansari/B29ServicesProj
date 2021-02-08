@@ -9,7 +9,8 @@ import android.widget.Toast
 //Normal Service or Started Service
 class MyService : Service() {
 
-    lateinit var mp : MediaPlayer
+     lateinit var mp : MediaPlayer
+
     override fun onBind(intent: Intent): IBinder {
         TODO("Return the communication channel to the service.")
     }
